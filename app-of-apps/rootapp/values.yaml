@@ -2,5 +2,5 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/mallick-asad/ArgoCD-Deployment-Test
+    repoURL: https://github.com/SayaliF/ArgoCD-Deployment-Test2
     targetRevision: HEAD
