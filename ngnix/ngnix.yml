@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-ui
 spec:
-  replicas: 1
+  replicas: 3
   revisionHistoryLimit: 3
   selector:
     matchLabels:
@@ -14,7 +14,7 @@ spec:
         app: nginx-ui
     spec:
       containers:
-      - image: nginx:latest12
+      - image: nginx:latest
         name: nginx-ui
         ports:
         - containerPort: 80
