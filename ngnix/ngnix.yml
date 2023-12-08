@@ -14,7 +14,7 @@ spec:
         app: nginx-ui
     spec:
       containers:
-      - image: nginx:latest
+      - image: nginx:latest123
         name: nginx-ui
         ports:
         - containerPort: 80
